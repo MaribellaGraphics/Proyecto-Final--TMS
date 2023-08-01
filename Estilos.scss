@@ -1,0 +1,44 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+//VARIABLES
+$colorprimario: #304554;
+$colorsecundario: #F8BB03;
+
+.navbar{
+    background-color:#304554;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Footer//
+footer{
+    background-color: #304554;
+}
+
+// Footer fijo en la parte inferior
+footer.footerprincipal {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  // párrafo dentro del footer
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
